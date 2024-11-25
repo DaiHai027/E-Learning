@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
-import Logo from "../../images/logo.png";
+import Logo from "@/images/Logo.png";
 import Link from "next/link";
 import Image from "next/image";
-import Mail_check from "../../images/homepage/mail-check.png";
+import Mail_check from "@/images/homepage/mail-check.png";
 import { usePathname } from 'next/navigation';
 
 export default function Header() {

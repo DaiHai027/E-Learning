@@ -4,11 +4,11 @@ import BaseText from "../custom/BaseText";
 import { FONT_SIZE } from "../custom/enum";
 import { PAGES_ENDPOINTS } from "../custom/pages-endpoints";
 import Link from "next/link";
-import Logo from "../../images/logo.png";
-import Twitter from "../../images/twitter.png";
-import Facebook from "../../images/facebook.png";
-import Instagram from "../../images/instagram.png";
-import Youtube from "../../images/youtube.png";
+import Logo from "@/images/Logo.png";
+import Twitter from "@/images/twitter.png";
+import Facebook from "@/images/facebook.png";
+import Instagram from "@/images/instagram.png";
+import Youtube from "@/images/youtube.png";
 
 const Footer = () => {
   return (
