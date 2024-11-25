@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
+
+/* Custom class for vertical text */
+.vertical-text {
+  @apply  p-2; /* Tailwind utilities for styling */
+  writing-mode: vertical-lr; /* Vertical text flow */
+  text-orientation: unset; /* Keep characters upright */
+}
